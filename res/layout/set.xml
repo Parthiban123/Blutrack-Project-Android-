@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ccffff" >
+	<View 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:text="Keep It With Me" 
+        android:textSize="50dp"
+        android:textColor="#9900ff"/>
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:textSize="50dp"
+        android:text="Track It"
+        android:textColor="#9900ff" />
+
+</LinearLayout>

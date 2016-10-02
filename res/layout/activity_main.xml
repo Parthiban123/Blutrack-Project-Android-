@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyBluetoothActivity" 
+    android:padding="20dp"
+    android:background="#FF1500FF"
+    >
+
+    <ToggleButton
+        android:layout_gravity="right"
+        android:id="@+id/toggleButton1"
+        android:background="#FFffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textColor="#00ff00" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        />
+    <Button
+        android:id="@+id/btnScan"
+        android:background="#ffffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for Devices"
+        android:textStyle="italic"
+        android:textColor="#ff00ff"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        />
+
+    <ListView
+        android:id="@+id/devicesfound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:textColor="#ffffffff" >
+    </ListView>
+    
+</LinearLayout>
